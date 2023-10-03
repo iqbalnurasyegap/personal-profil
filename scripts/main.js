@@ -1,15 +1,3 @@
-//tulisan berubah
-const textContainer = 
-              document.getElementById("hero");
-        
-        let hue = 0;
-  
-        setInterval(() => {
-            hue = (hue + 1) % 360;
-            const color = `hsl(${hue}, 100%, 50%)`;
-            textContainer.style.color = color;
-        }, 50);
-
 // toggle &responsive navigasi
 const navSlide = () => {
     const burger = document.querySelector(".burger")
