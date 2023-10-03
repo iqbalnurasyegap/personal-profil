@@ -1,6 +1,6 @@
 //tulisan berubah
 const textContainer = 
-              document.getElementById("hero-name");
+              document.getElementById(".hero");
         
         let hue = 0;
   
